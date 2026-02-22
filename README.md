@@ -1,51 +1,84 @@
 # ai-agent-waf
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+## Detailed Description
 
-> AI Agent WAF - Real-time input validation and protection for AI agents
+ai-agent-waf is maintained as an industry-grade software project with production-ready engineering practices.  
+This repository includes documented setup, quality gates, operational guidance, and governance standards so contributors can safely build, test, and ship changes with confidence.
 
-## 🚀 Features
+## Problem Statement
 
-✅ Boosts development speed
-✅ Reduces manual tasks
-✅ Developer-friendly interface
+Describe the user or business problem this project solves, the target users, and expected outcomes.
 
-## 📦 Installation
+## Solution Overview
+
+Summarize the architecture, core modules, and runtime behavior at a high level.
+
+## Key Features
+
+- Clear project scope and intended use.
+- Reproducible local development workflow.
+- Test coverage and CI quality gates.
+- Security and contribution policies.
+- Deployment-ready repository structure.
+
+## Repository Structure
+
+```text
+.
+|-- src/                  # Core implementation
+|-- tests/                # Automated test suites
+|-- docs/                 # Design notes and operational docs
+|-- .github/workflows/    # CI pipelines
+|-- README.md
+|-- LICENSE
+|-- CONTRIBUTING.md
+|-- SECURITY.md
+|-- CODE_OF_CONDUCT.md
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Git
+- Project runtime/toolchain for this repo
+
+### Local Setup
 
 ```bash
-# Clone the repository
-git clone https://github.com/yksanjo/ai-agent-waf.git
-cd ai-agent-waf
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Or install as package
-pip install -e .
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt  # or: pip install -e .[dev]
+pytest
 ```
 
-## 💡 Usage
+## Usage
 
-```python
-# Basic usage
-from ai_agent_waf import main
+Document primary commands, API routes, CLI examples, or UI workflows here.
 
-# Run with default settings
-main()
+## Quality Standards
 
-# Or use CLI
-python -m ai_agent_waf
-```
+- CI must pass before merge.
+- Changes require tests for critical behavior.
+- Security-sensitive changes should include risk notes.
+- Keep pull requests focused and reviewable.
 
-## 🛠️ Tech Stack
+## Security
 
-- **Primary Language:** Python
-- **Category:** Developer Productivity
+See `SECURITY.md` for responsible disclosure and handling guidelines.
 
-## 📄 License
+## Contributing
 
-This project is licensed under the MIT License.
+See `CONTRIBUTING.md` for branching, commit, and pull request expectations.
 
----
+## Roadmap
 
-*Built with ❤️ by [yksanjo](https://github.com/yksanjo)*
+Track upcoming milestones, technical debt, and planned feature work.
+
+## Support
+
+Open a GitHub issue for bugs, feature requests, or documentation gaps.
+
+## License
+
+This project is released under the MIT License.
